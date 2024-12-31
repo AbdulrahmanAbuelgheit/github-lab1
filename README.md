@@ -10,7 +10,8 @@ git tag -d v1.4
 git push origin --delete v1.0
 # git rebase
 command used to integrate changes from one branch into another by replaying commits from the source branch on top of the target branch. It creates a cleaner, linear commit history by avoiding merge commits.
---git rebase main
+
+# --git rebase main
 # pull request
 allows developers to propose changes from one branch to another, typically for review and collaboration before merging. It provides a structured way to discuss, review, and approve code updates.
 
